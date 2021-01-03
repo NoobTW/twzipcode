@@ -1,8 +1,8 @@
 {
   "name": "ziptw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "中華郵政郵遞區號",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
