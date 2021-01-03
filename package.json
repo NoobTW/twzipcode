@@ -1,0 +1,29 @@
+{
+  "name": "ziptw",
+  "version": "0.1.0",
+  "description": "中華郵政郵遞區號",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "NoobTW",
+  "license": "MIT",
+  "dependencies": {
+    "twzipcode-data": "^1.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "esm": "^3.2.25"
+  },
+  "keywords": [
+	"Taiwan",
+	"郵遞區號",
+	"zipcode",
+	"postcode"
+  ]
+}
